@@ -1,0 +1,23 @@
+# Data files (raw data should be downloaded per project README, not committed)
+data/raw/
+*.csv
+*.db
+*.sqlite
+*.parquet
+!**/data/processed/sample_*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Environment
+.env
